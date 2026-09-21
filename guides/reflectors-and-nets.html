@@ -13,7 +13,7 @@
     <script src="/scripts/script.js?v=20260921" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
-    <meta name="description" content="Recommended D-STAR reflectors and nets, last heard, and HF DV coordination tips." />
+    <meta name="description" content="Ohio State Wide D-STAR Net (OWDN) plus recommended D-STAR reflectors, nets, last heard, and HF DV notes." />
     <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
     <script>(function (c, l, a, r, i, t, y) { c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) }; t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i + "?ref=bwt"; y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); })(window, document, "clarity", "script", "ex0kah23lx");</script>
@@ -96,38 +96,44 @@
                         <span class="tag tag-quiet">Ohio</span>
                     </div>
                     <h2 id="oswdn-title">Ohio State Wide D-STAR Net</h2>
-                    <p class="net-aka">OWDN · Lone NCS Mark, KE8BZW</p>
+                    <p class="net-aka">OWDN · Lone NCS Mark, <a href="https://www.qrz.com/db/KE8BZW">KE8BZW</a></p>
                     <div class="net-card-grid">
                         <div class="net-meta">
                             <h3>When</h3>
                             <dl>
                                 <dt>Early check-in</dt>
-                                <dd>7:30 PM ET</dd>
-                                <dt>Net</dt>
-                                <dd>8:00 PM ET Sundays</dd>
-                                <dt>UTC (EDT)</dt>
-                                <dd>00:00 Monday</dd>
-                                <dt>UTC (EST)</dt>
-                                <dd>01:00 Monday</dd>
+                                <dd>7:30 PM Eastern</dd>
+                                <dt>Net (local, year-round)</dt>
+                                <dd>8:00 PM Eastern Sundays</dd>
+                                <dt>UTC while Eastern is on DST</dt>
+                                <dd>Monday 00:00 UTC (EDT is UTC-4)</dd>
+                                <dt>UTC while Eastern is on standard time</dt>
+                                <dd>Monday 01:00 UTC (EST is UTC-5)</dd>
                             </dl>
-                            <p class="net-dst">Local ET does not change with DST. UTC does. Next US change: 1 November 2026.</p>
+                            <p class="net-dst">
+                                Clock on the wall stays 8:00 PM Eastern. UTC moves one hour when the US changes clocks.
+                                We are on EDT now, so the next net is Monday 00:00 UTC. After 1 November 2026 it becomes Monday 01:00 UTC.
+                            </p>
                         </div>
                         <div class="net-join">
                             <h3>Join paths</h3>
                             <ul class="net-chips">
-                                <li><a class="net-chip" href="http://ref038.dstargateway.org/" target="_blank" rel="noopener">REF038A</a></li>
-                                <li><span class="net-chip">XRF038A</span></li>
-                                <li><span class="net-chip">DCS038A</span></li>
-                                <li><span class="net-chip">XLX038A</span></li>
-                                <li><span class="net-chip">XLX978A</span></li>
-                                <li><span class="net-chip">XLX044A</span></li>
-                                <li><span class="net-chip">TG 302050 <span>BrandMeister</span></span></li>
+                                <li><a class="net-chip" href="http://ref038.dstargateway.org/" target="_blank" rel="noopener">REF038A <span>D-Plus</span></a></li>
+                                <li><a class="net-chip" href="http://xlx038.dyndns.org/" target="_blank" rel="noopener">XRF038A <span>DExtra</span></a></li>
+                                <li><a class="net-chip" href="http://xlx038.dyndns.org/" target="_blank" rel="noopener">DCS038A <span>DCS</span></a></li>
+                                <li><a class="net-chip" href="http://xlx038.dyndns.org/" target="_blank" rel="noopener">XLX038A <span>XLX</span></a></li>
+                                <li><a class="net-chip" href="https://xlx978.ne-dstar.org/" target="_blank" rel="noopener">XLX978A <span>Portal</span></a></li>
+                                <li><a class="net-chip" href="https://xlx978.ne-dstar.org/" target="_blank" rel="noopener">XLX044A <span>Hub</span></a></li>
+                                <li><a class="net-chip" href="http://freestar.homelinux.net/xlx/index.php" target="_blank" rel="noopener">XLX416A <span>CanNet</span></a></li>
+                                <li><a class="net-chip" href="https://ysflive.com/directory" target="_blank" rel="noopener">YSF 17206 <span>C4FM</span></a></li>
+                                <li><a class="net-chip" href="https://hose.brandmeister.network/?subscribe=302050" target="_blank" rel="noopener">BM TG 302050 <span>DMR</span></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="net-card-actions">
-                        <a class="btn btn-primary" href="http://ref038.dstargateway.org/" target="_blank" rel="noopener">Dashboard</a>
-                        <a class="btn btn-secondary" href="#oswdn">Jump to OWDN</a>
+                        <a class="btn btn-primary" href="http://ref038.dstargateway.org/" target="_blank" rel="noopener">REF038 dashboard</a>
+                        <a class="btn btn-secondary" href="https://netcontrol.live/views/dashboard" target="_blank" rel="noopener">netcontrol.live</a>
+                        <a class="btn btn-ghost" href="/operation/repeaterlinking.html">How to link</a>
                     </div>
                 </article>
 
@@ -155,7 +161,7 @@
                 </p>
                 <div style="margin-left: 1em;">The Canada D-STAR Net Fri @ 01:00 UTC</div>
                 <div style="margin-left: 1em;">Ohio Rag Chew Net (ORCN) Sun @ 12:00 UTC</div>
-                <div style="margin-left: 1em;"><a href="#oswdn">Ohio State Wide D-STAR Net (OWDN)</a> Sun @ 00:00 UTC (EDT) / 01:00 UTC (EST)</div>
+                <div style="margin-left: 1em;"><a href="#oswdn">Ohio State Wide D-STAR Net (OWDN)</a> · 8:00 PM ET Sundays · see card above</div>
                 <p>
                     <a href="http://ref038.dstargateway.org/" target="_blank" rel="noopener">REF 038</a> C - Ohio Reflector
                     (Calling)
@@ -165,7 +171,7 @@
                 <div style="margin-left: 1em;">Linked to W8RTL^^C <a href="https://hamvention.org/#custom_html-7"
                         target="_blank" rel="noopener">during Hamvention weekend</a> each year in Mid-may.</div>
                 <div style="margin-left: 1em;"><a
-                        href="https://www.youtube.com/watch?v=LT0Urqk3Ab4&amp;list=PLqo_TrVhd2MeOzGmQs9T6CsVi_MiDm2xv"
+                        href="https://www.youtube.com/watch?v=LT0Urqk3Ab4&list=PLqo_TrVhd2MeOzGmQs9T6CsVi_MiDm2xv"
                         target="_blank" rel="noopener">See short tutorial on how to link to REF038C here!</a></div>
                 <p>
                     <a href="http://ref030.dstargateway.org/" target="_blank" rel="noopener">REF 030</a> C - Southeast USA
