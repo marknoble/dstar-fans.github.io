@@ -1,4 +1,4 @@
-/* OWDN featured net card — tokens inherited from style.css */
+/* OWDN featured net card - tokens inherited from style.css */
 .net-card {
     position: relative;
     overflow: hidden;
@@ -63,7 +63,7 @@
 
 .net-card-grid {
     display: grid;
-    grid-template-columns: 1.2fr 0.8fr;
+    grid-template-columns: 1.15fr 0.85fr;
     gap: 1.1rem 1.4rem;
     margin-bottom: 1.15rem;
 }
@@ -100,8 +100,26 @@
     font-weight: 650;
 }
 
+.net-time {
+    width: 100%;
+    margin: 0.55rem 0 0.7rem;
+    font-size: 0.85rem;
+    border-radius: var(--radius-sm);
+}
+
+.net-time th,
+.net-time td {
+    padding: 0.45rem 0.6rem;
+}
+
+.net-time th {
+    font-size: 0.68rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
 .net-dst {
-    margin: 0.85rem 0 0;
+    margin: 0.55rem 0 0;
     padding: 0.7rem 0.8rem;
     border-radius: var(--radius-sm);
     background: var(--bg-subtle);
@@ -135,7 +153,7 @@
     text-decoration: none;
 }
 
-.net-chip:hover {
+a.net-chip:hover {
     border-color: rgba(29, 155, 240, 0.45);
     color: var(--accent);
     text-decoration: none;
