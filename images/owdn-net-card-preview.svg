@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">OWDN net card preview</title>
+  <desc id="desc">Ohio State Wide D-STAR Net card: 7:30 PM ET check-in, 8:00 PM ET Sundays, paths REF038A and others, NCS Mark KE8BZW</desc>
+  <defs>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1d9bf0"/>
+      <stop offset="100%" stop-color="#00ba7c"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0%" stop-color="#1d9bf0" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#16181c" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="420" fill="#000"/>
+  <rect x="24" y="24" width="672" height="372" rx="16" fill="#16181c" stroke="#2f3336"/>
+  <rect x="24" y="24" width="672" height="372" rx="16" fill="url(#bg)"/>
+  <rect x="24" y="24" width="672" height="3" fill="url(#top)"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+    <rect x="48" y="48" width="96" height="22" rx="11" fill="rgba(29,155,240,0.12)"/>
+    <text x="96" y="63" text-anchor="middle" fill="#1d9bf0" font-size="11" font-weight="650" letter-spacing="0.5">FEATURED NET</text>
+    <rect x="154" y="48" width="72" height="22" rx="11" fill="#1a1d23"/>
+    <text x="190" y="63" text-anchor="middle" fill="#71767b" font-size="11" font-weight="650">SUNDAYS</text>
+    <rect x="236" y="48" width="52" height="22" rx="11" fill="#1a1d23"/>
+    <text x="262" y="63" text-anchor="middle" fill="#71767b" font-size="11" font-weight="650">OHIO</text>
+    <text x="48" y="108" fill="#e7e9ea" font-size="28" font-weight="700">Ohio State Wide D-STAR Net</text>
+    <text x="48" y="134" fill="#71767b" font-size="14">OWDN · Lone NCS Mark, KE8BZW</text>
+    <text x="48" y="172" fill="#1d9bf0" font-size="11" font-weight="700" letter-spacing="1.2">WHEN</text>
+    <text x="48" y="198" fill="#71767b" font-size="12">Early check-in</text>
+    <text x="48" y="218" fill="#e7e9ea" font-size="15" font-weight="650">7:30 PM ET</text>
+    <text x="48" y="248" fill="#71767b" font-size="12">Net</text>
+    <text x="48" y="268" fill="#e7e9ea" font-size="15" font-weight="650">8:00 PM ET Sundays</text>
+    <text x="48" y="298" fill="#71767b" font-size="12">UTC (EDT) 00:00 Mon · UTC (EST) 01:00 Mon</text>
+    <text x="48" y="322" fill="#c4c8cc" font-size="12">Local ET fixed. UTC shifts with DST. Next: 1 Nov 2026.</text>
+    <text x="380" y="172" fill="#1d9bf0" font-size="11" font-weight="700" letter-spacing="1.2">JOIN PATHS</text>
+    <g font-family="ui-monospace, SF Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">
+      <rect x="380" y="188" width="78" height="26" rx="13" fill="#1a1d23" stroke="#2f3336"/>
+      <text x="419" y="205" text-anchor="middle" fill="#e7e9ea">REF038A</text>
+      <rect x="468" y="188" width="78" height="26" rx="13" fill="#1a1d23" stroke="#2f3336"/>
+      <text x="507" y="205" text-anchor="middle" fill="#e7e9ea">XRF038A</text>
+      <rect x="556" y="188" width="78" height="26" rx="13" fill="#1a1d23" stroke="#2f3336"/>
+      <text x="595" y="205" text-anchor="middle" fill="#e7e9ea">DCS038A</text>
+      <rect x="380" y="224" width="78" height="26" rx="13" fill="#1a1d23" stroke="#2f3336"/>
+      <text x="419" y="241" text-anchor="middle" fill="#e7e9ea">XLX038A</text>
+      <rect x="468" y="224" width="78" height="26" rx="13" fill="#1a1d23" stroke="#2f3336"/>
+      <text x="507" y="241" text-anchor="middle" fill="#e7e9ea">XLX978A</text>
+      <rect x="556" y="224" width="78" height="26" rx="13" fill="#1a1d23" stroke="#2f3336"/>
+      <text x="595" y="241" text-anchor="middle" fill="#e7e9ea">XLX044A</text>
+      <rect x="380" y="260" width="140" height="26" rx="13" fill="#1a1d23" stroke="#2f3336"/>
+      <text x="450" y="277" text-anchor="middle" fill="#e7e9ea">TG 302050 BM</text>
+    </g>
+    <rect x="380" y="310" width="110" height="36" rx="18" fill="#1d9bf0"/>
+    <text x="435" y="333" text-anchor="middle" fill="#fff" font-size="14" font-weight="650">Dashboard</text>
+  </g>
+</svg>
